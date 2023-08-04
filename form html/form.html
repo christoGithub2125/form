@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            background-image: url("pic03.jpg");
+        }
+    </style>
+</head>
+<body>
+   <form >
+    <table>
+        <tr>
+            <td>
+                <label for="u_name">Full Name :</label>
+             </td>
+             <td><input type="text" id="u_name" pattern="[A-Z, a-z]{20}"></td>
+        </tr>
+        <tr>
+            <td><label for="u_lname">Last Name:</label></td>
+            <td><input type="text" pattern="[A-Z, a-z]{20}"> </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="DOB">Date of Birth :</label>
+            </td>
+            <td>
+                <select name="DOB_day" id="DOB" >
+                    <option  value="number">1</option>
+                    <option value="number">11</option>
+                    <option value="number">12</option>
+                    <option value="number">13</option>
+                    <option value="number">14</option>
+                    <option value="number">15</option>
+                    <option value="number">16</option>
+                    <option value="number">17</option>
+                    <option value="number">18</option>
+                   </select>
+               <select name="DOB_Month" id="DOB">
+                <option >January</option>
+                <option >Febuary</option>
+                <option >March</option>
+                <option >April</option>
+                <option >May</option>
+                <option >June</option>
+                <option >July</option>
+                <option >August</option>
+                <option >Spetmber</option>
+                <option >October</option>
+                <option >November</option>
+                <option >December</option>
+               </select>
+               <select name="DOB_year" id="DOB">
+               <option value="DOB"> 2020</option>
+               <option value="DOB"> 2021</option>
+               <option value="DOB"> 2022</option>
+               <option value="DOB"> 2023</option>
+               <option value="DOB"> 2024</option>
+               <option value="DOB"> 2025</option>
+               <option value="DOB"> 2026</option>
+               <option value="DOB"> 2027</option>
+               <option value="DOB"> 2028</option>
+               <option value="DOB"> 2029</option>
+               <option value="DOB"> 2030</option>
+               </select>
+            </td>
+        </tr>
+            <tr>
+                <td>
+                    <label for="DOB">Gender:</label>
+                </td>
+            <td>
+                <label for="GENDER"></label>
+                <input type="radio">Male
+                <input type="radio">Female
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Email-Id:</label></td>
+                    <td><input type="email" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Mobile Number:</label>
+                </td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Address:</label>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+            <td>
+                <label for="" >city:</label></td>
+                <td>
+                <input  type="text" pattern="[a-z, A-Z] {20}">
+            </td>
+            </tr>
+            <td>
+                <label for="" >Pin Code:</label></td>
+                <td>
+                <input  type="text" pattern="{6}">
+            </td>
+            </tr>
+            <td>
+                <label for="" >State:</label></td>
+                <td>
+                <input  type="text">
+            </td>
+            </tr>
+            <td>
+                <label for="" >State:</label></td>
+                <td>
+                <input  type="text" >
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Hobbies</label>
+                    </td>
+                    <td>
+                        <input type="checkbox"> Drawing
+                        <input type="checkbox"> Singing
+                        <input type="checkbox"> Dancing
+                        <br>
+                        <input type="checkbox">others
+                        <input type="text">
+                     </td>
+            </tr>
+            <tr>
+                <td>
+                <label for="">qualifications</label>
+                </td>
+                <td>
+                <table>
+                    <tr>
+                        <th>Examination</th>
+                        <th>board</th>
+                        <th>Percentage</th>
+                        <th>Year Of Passing</th>
+                    </tr>
+                    <tr>
+                        <td>01 class X</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>02 class XI</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>03 Graduation</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr><td>04 master</td>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                </table>
+                <tr>
+                    <td><label for="">Course Applied For</label></td>
+                    <td><input type="checkbox">BSE
+                    <input type="checkbox">B.COM
+                    <input type="checkbox">B.SC
+                    <input type="checkbox">B.A
+                </td>
+                </tr>
+            </td>
+                </tr>
+                <tr><td></td>
+                    <td></td>
+                <td><input type="submit"></td>
+            <td><input type="reset"></td></tr>
+
+                
+                
+       
+           
+
+            
+            
+        
+    </table>
+   </form>
+</body>
+</html>
